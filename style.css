@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
-*{
+* {
   margin: 0;
-
   padding: 0;
+  box-sizing: border-box;
 }
-body{
+
+body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Hero Section */
+
 .hero {
   background-color: #1f2c3d;
-
 }
 
 .hero-top {
@@ -33,7 +33,7 @@ body{
 .header-links {
   display: flex;
   gap: 15px;
- padding-right: 300px;
+  padding-right: 300px;
 }
 
 a {
@@ -89,4 +89,42 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Main Body Styling */
+
+.random-info {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.box-layout {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  /* margin-top: 40px; */
+  padding: 80px 180px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: 3px solid blue;
+  border-radius: 20px;
+}
+
+.box-subtext {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
 }
