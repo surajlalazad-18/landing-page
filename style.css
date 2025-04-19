@@ -212,3 +212,16 @@ a {
   display: inline-block;
   cursor: pointer;
 }
+
+
+
+/* Footer Section */
+footer{
+  background-color: #1f2c3d;
+  color:#e5e7eb;
+  height: 50px;
+  width: 100vw;
+ text-align: center;
+ padding: 50px;
+ font-size: larger;
+}
