@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -59,17 +59,17 @@ a {
 .hero-main-text {
   font-size: 48px;
   font-weight: 900;
-  color: #F9FAF8;
+  color: #f9faf8;
 }
 
 .hero-secondary-text {
-  color: #E5E7EB;
+  color: #e5e7eb;
   font-size: 18px;
   line-height: 1.5;
 }
 
 .hero-button {
-  background-color: #3882F6;
+  background-color: #3882f6;
   color: white;
   padding: 10px 25px;
   font-size: 18px;
@@ -81,7 +81,7 @@ a {
 }
 
 .header-logo-text {
-  color: #F9FAF8;
+  color: #f9faf8;
   font-size: 24px;
   width: 600px;
   height: 300px;
@@ -96,7 +96,7 @@ a {
 .random-info {
   font-size: 36px;
   font-weight: 900;
-  color: #1F2937;
+  color: #1f2937;
   text-align: center;
   margin-top: 30px;
 }
@@ -131,10 +131,10 @@ a {
 
 /* Feedback Section */
 
-.feedback-section{
+.feedback-section {
   width: 100vw;
   height: 350px;
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,17 +143,72 @@ a {
   overflow: auto;
 }
 
-.testimonial{
+.testimonial {
   font-size: 36px;
   font-style: italic;
-  color: #1F2937;
+  color: #1f2937;
   width: 50vw;
   height: 100px;
-
 }
 
-.customer-username{
+.customer-username {
   text-align: end;
   font-weight: 900;
 }
 
+/* Call To Action Section */
+
+.CalltoAction {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding-bottom: 20px;
+}
+
+.action-container {
+  background-color: #3882f6;
+  height: 120px;
+  width: 75vw;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.action-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 130px;
+}
+
+.content1 {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  gap: 5px;
+}
+
+.content2 {
+  color: #e5e7eb;
+  display: inline-block;
+}
+
+.signup {
+  display: inline;
+  margin-left: auto;
+}
+
+.action {
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: bolder;
+  display: inline-block;
+  cursor: pointer;
+}
